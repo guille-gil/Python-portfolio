@@ -1,8 +1,3 @@
-"""
-AM Assignment 3
-Guillermo Gil de Avalle Bellido - S5787084
-"""
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
