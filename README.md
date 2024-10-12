@@ -5,6 +5,7 @@ Welcome to my Python Portfolio! This repository is a curated collection of Pytho
 ## Skills Showcased
 - Data Cleaning and Preparation
 - Exploratory Data Analysis (EDA)
+- Machine learning modelling and implementation
 - Predictive Modeling and Forecasting
 - Optimization and Simulation
 - Data Visualization
@@ -22,3 +23,14 @@ Welcome to my Python Portfolio! This repository is a curated collection of Pytho
 - **Objective:** Optimize maintenance policies for machinery through statistical analysis of maintenance data and simulation of maintenance thresholds.
 - **Tools & Techniques:** Employed Kaplan-Meier and Weibull analysis for reliability modeling, and Python for simulations to identify cost-effective maintenance thresholds.
 - **Outcome:** Offered recommendations for maintenance strategies that balance cost and reliability, based on comprehensive policy comparisons.
+
+### HRS Location Optimization
+- **Objective:** Optimize the placement of Hydrogen Refueling Stations (HRS) across North Netherlands to maximize network efficiency for FCEVs.
+- **Tools & Techniques:** Integrated traffic intensity data with gas station locations using Python, performed sensitivity analysis, and used Gurobi for optimization modeling.
+- **Outcome:** Produced a strategic infrastructure development plan that supports the transition to greener transportation.
+
+### Machine Learning Techniques Comparison for Predicting Academic Success in Higher Education
+- **Objective:** Compare various machine learning techniques to predict student success in higher education accurately.
+- **Tools & Techniques:** Employed Decision Trees, Bagged Decision Trees, and Random Forests in Python to analyze data from the Polytechnic Institute of Portalegre.
+- **Outcome:** Identified the most effective predictive models and provided insights into key factors influencing academic success, aiding policy formation to improve educational outcomes.
+
