@@ -1,39 +1,37 @@
-# Predictive Modeling for Enhanced Decision Making
+# Predictive Modeling for Student Academic Success
 
 ## Overview
-This project focuses on developing predictive machine learning models to enhance decision-making processes across various sectors. By leveraging historical data, the project employs advanced statistical techniques and machine learning algorithms to predict outcomes and optimize strategies. The main objective is to provide actionable insights that lead to more informed and effective decisions.
+This project aims to enhance the prediction of student academic success at the Polytechnic Institute of Portalegre by analyzing historical data from 2008 to 2019. Utilizing machine learning techniques such as Decision Trees and Random Forests, the study evaluates different predictive models to forecast academic outcomes across three risk levels. The ultimate goal is to implement effective policies that improve student retention and success rates.
 
 ## Folder Structure
-- **model.py**: Contains the predictive modeling, algorithm implementation, and model validation logic.
-- **data_cleaning.py**: Handles data preprocessing, cleaning, and transformation to ensure data quality for modeling.
+- **model.py**: Main script for implementing and evaluating predictive models.
+- **data_cleaning.py**: Script for preprocessing and cleaning data, ensuring it is ready for analysis.
 
-### Theoretical folders, for an operational environment
-- **data/**: Directory containing all raw datasets used in the analysis.
-- **results/**: Generated reports, visualizations, and model performance metrics.
-- **cleaned_data/**: Processed datasets ready for modeling after being transformed by `data_cleaning.py`.
+### Additional Directories
+- **data/**: Contains raw datasets of student records.
+- **results/**: Stores outputs like model evaluation reports and charts.
+- **cleaned_data/**: Holds processed data sets ready for modeling.
 
 ## Datasets
-The project utilizes a diverse set of historical data tailored to the specific needs of the predictive models. This includes demographic, transactional, and behavioral data, among others, to accurately forecast and optimize decision-making processes.
+The analysis incorporates a comprehensive dataset that tracks several variables, including academic performance, demographic details, and socio-economic backgrounds of students. This data is used to identify patterns and predict student outcomes effectively.
 
 ## Methodologies
-### Statistical Analysis and Machine Learning
-- **Feature Engineering**: Identifying the most impactful variables that influence the outcomes and creating new variables to improve model accuracy.
-- **Model Selection**: Evaluating various algorithms (e.g., Random Forest, SVM, Neural Networks) to find the best fit based on the predictive performance.
-- **Model Validation**: Using techniques like cross-validation and A/B testing to ensure the robustness and reliability of the models.
+### Machine Learning Models
+- **Decision Trees and Random Forests**: Used for their efficiency in handling categorical data and their capacity to rank the importance of various features.
+- **Data Balancing Techniques**: Implements undersampling and oversampling to address class imbalance in the dataset, enhancing model accuracy and fairness.
 
-### Data Cleaning
-- **Data Integrity Checks**: Ensuring accuracy by checking for duplicates, handling missing values, and verifying data formats.
-- **Normalization and Standardization**: Preparing data for modeling through scaling and transformations to enhance model performance.
+### Model Validation
+- **Cross-Validation**: Employs 10-fold cross-validation to assess model performance and ensure generalizability.
+- **Hyperparameter Tuning**: Uses techniques like Randomized Grid Search to optimize model parameters for best performance.
 
 ## Key Findings and Recommendations
-Through rigorous analysis and modeling, the project delivers crucial insights that facilitate smarter decision-making. The recommendations are based on a detailed evaluation of model outcomes, emphasizing strategies that combine both efficiency and effectiveness.
+The project identifies key predictors of academic success and provides insights into the effectiveness of various intervention strategies. Recommendations for policy adjustments are based on quantitative analysis and are aimed at reducing dropout rates and improving academic achievement.
 
 ## Tools and Libraries
-- **Python**: For overall programming, data manipulation, and model development.
-- **Pandas**: Extensive data manipulation and analysis.
-- **NumPy**: Handling complex numerical operations.
-- **Scikit-learn**: Implementing and validating machine learning models.
-- **Matplotlib** and **Seaborn**: Visualizing data and model results.
+- **Python**: For data manipulation and running machine learning algorithms.
+- **Pandas** and **NumPy**: For data handling and numerical operations.
+- **Scikit-learn**: For modeling and validation.
+- **Matplotlib**: For generating visualizations of the model results.
 
 ## Conclusion
-The predictive models developed in this project serve as a cornerstone for strategic decision-making, providing a significant competitive advantage by anticipating future trends and behaviors.
+The application of predictive modeling in educational settings can significantly aid in proactive student support and policy development, ultimately leading to improved educational outcomes and reduced dropout rates.
