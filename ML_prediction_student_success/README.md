@@ -1,4 +1,4 @@
-# Predictive Modeling for Student Academic Success
+# Comparison for ML models to predict Student Academic Success
 
 ## Overview
 This project aims to enhance the prediction of student academic success at the Polytechnic Institute of Portalegre by analyzing historical data from 2008 to 2019. Utilizing machine learning techniques such as Decision Trees and Random Forests, the study evaluates different predictive models to forecast academic outcomes across three risk levels. The ultimate goal is to implement effective policies that improve student retention and success rates.
